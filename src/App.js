@@ -25,8 +25,10 @@ const App = () => {
       <section className="menu section">
         <div className="title">
           <img src={logo} alt="logo" className="logo" />
-          <h2>Menu List</h2>
-          <div className="underline"></div>
+          <h2>TO ORDER (909-390-9020)</h2>
+          <h3>Deliveries available by special arrangement only! Devivery must be a minimum of $60</h3>
+          <h4> •Hours: Mon - Fri 6:45AM to 2:30PM • Saturday  6:45AM to 12:30PM • Sunday   CLOSED
+          </h4>
         </div>
         <Categories
           categories={categories}

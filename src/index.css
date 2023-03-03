@@ -30,6 +30,8 @@ h3 {
 
 h4 {
   font-size: 0.875rem;
+  width: 324px;
+  display: contents;
 }
 
 p {
@@ -108,7 +110,7 @@ p {
   height: 200px;
   width: 100%;
   border: 0.25rem solid hsl(360, 71%, 66%);
-  border-radius: 0.25rem;
+  border-radius: 4px;
   display: block;
   
 }
@@ -117,7 +119,7 @@ p {
   object-fit: cover;
   height: auto;
   width: 200px;
-  border-radius: 0.25rem;  
+  border-radius: 0.25;  
 }
 
 .item-info header {
