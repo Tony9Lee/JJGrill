@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: hsl(210, 36%, 96%);
+  background: hsl(48.3, 100%, 92.9%);
   color: hsl(209, 61%, 16%);
 }
 
@@ -40,6 +40,7 @@ h4 {
 
 h5 {
   margin-top: auto;
+  line-height: 17px;
 }
 
 p {
@@ -63,7 +64,7 @@ p {
 }
 .title {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .underline {
@@ -107,6 +108,19 @@ p {
   justify-items: stretch;
 }
 
+.section-bottom {
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  justify-items: stretch;
+}
+
+.drinks-item {
+  display: grid;
+  gap: 1rem 2rem;
+  max-width: 25rem;
+}
+
 .menu-item {
   display: grid;
   gap: 1rem 2rem;
@@ -133,13 +147,41 @@ p {
 .item-info header {
   display: flex;
   justify-content: space-between;
+  height: 40px;
+}
+
+.drinks-info header {
+  height: 15px;
+}
+
+.item-text-price-container {
+  display: flex;
+  flex-direction: row;
 }
 
 .item-text {
-  margin-bottom: 0;
   font-size: small;
-  display: table-cell
+  margin: 2px;
+  align-self: flex-start;
+  padding-top: 4px;
 }
+
+.item-price {
+  font-size: small;
+  margin: 10px;
+  display: flex;
+  align-items: flex-start;
+  width: 50px;
+}
+
+.drinks-price {
+  font-size: small;
+  margin: 10px;
+  display: flex;
+  align-items: flex-start;
+  width: 50px;
+}
+
 
 @media screen and (min-width: 768px) {
   .menu-item {

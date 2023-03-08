@@ -4,256 +4,254 @@ const menu = [
     title: "Breakfast Plates (with 2 Eggs, Hashbrown & Toast)",
     category: "breakfast",
     img: "./images/item-1.jpeg",
-    desc: "2 Eggs, Hash Brown, Toast ——————————————— $6.99" + 
-    "\n Bacon (3) or Sausage (3) ————————————————  $9.19" +
-    "\n Ribeye Steak  —————————————————————  $14.99" + 
-    "\n Chicken Breast  ————————————————————  $11.19" +
-    "\n Ham ————————————————————————— $9.19" +
-    "\n Chorizo ————————————————————————$9.19",
+    price: "$6.99 $9.19 $14.99 $11.19 $9.19 $9.19", 
+    desc: "2 Eggs, Hash Brown, Toast —————-————— " + 
+    "\n Bacon (3) or Sausage (3) ——————-—————  " +
+    "\n Ribeye Steak  —————————-———————  " + 
+    "\n Chicken Breast  ——————-—————————  " +
+    "\n Ham ———————————————————— " +
+    "\n Chorizo ———————————————————",
   },
   {
     id: 2,
     title: "Mexican Breakfast Plates (with 2 Eggs, Rice, Bean & Tortilla)",
     category: "breakfast",
-    img: "./images/item-1.jpeg",
-    desc: "Huevos Rancheros —————————————————— $9.79" + 
-    "\n Chillaquiles ——————————-——————————— $9.79",
+    img: "./images/item-2.jpeg",
+    price: "$9.79 $9.79",
+    desc: "Huevos Rancheros —————————-—————" + 
+    "\n Chillaquiles ——————-————-———————",
   },
   {
     id: 3,
     title: "Omelettes (with 3 Eggs, Hashbrown & Toast",
     category: "breakfast",
-    img: "./images/item-1.jpeg",
-    desc: "Cheese ——————————————————————— $9.39" + 
-    "\n Denver ———————————————————————  $10.69" +
-    "\n Spanish  ———————————————————————  $10.69" + 
-    "\n Bacon or Sausage or Ham  ——————————————— $10.29" +
-    "\n Chilli ———————————————————————— $10.29" +
-    "\n Vegetarian —————————————————————— $10.29",
+    img: "./images/item-3.jpeg",
+    price: "$9.39 $10.69 $10.69 $10.29 $10.29 $10.29", 
+    desc: "Cheese —————————-———-—————— " + 
+    "\n Denver ——————————————--————  " +
+    "\n Spanish  ———————-——————————— " + 
+    "\n Bacon or Sausage or Ham  —————————— " +
+    "\n Chilli —————-—————————-————— " +
+    "\n Vegetarian ————————————————— ",
   },
   {
     id: 4,
     title: "Breakfast Burritos (with 2 Eggs, Hashbrown, Pico & Cheese) ",
     category: "breakfast",
-    img: "./images/item-1.jpeg",
-    desc: "Egg ———————————————————————— $5.99" + 
-    "\n Bacon or Sausage ——————————————————  $7.89" +
-    "\n Ham  ————————————————————————  $7.89" + 
-    "\n Chorizo  ——————————————————————— $8.89" +
-    "\n Combo (Bacon+Sausage+Ham) ————————-———— $9.49" +
-    "\n Chillaquiles w/ 2 eggs + Rice + Beans —————————— $9.49",
+    img: "./images/item-4.jpeg",
+    price: "$5.99 $7.89 $7.89 $8.89 $9.49 $9.49",
+    desc: "Egg ———————————-—-———————— " + 
+    "\n Bacon or Sausage ————————-——————  " +
+    "\n Ham  ————————————-————————  " + 
+    "\n Chorizo  ——————————————————— " +
+    "\n Combo (Bacon+Sausage+Ham) ————-———— " +
+    "\n Chillaquiles w/ 2 eggs + Rice + Beans ——--——— ",
   },
   {
     id: 5,
     title: "Breakfast Sandwiches (with 2 Eggs, Cheese, Mayo, Lettuce & Tomato) ",
     category: "breakfast",
-    img: "./images/item-1.jpeg",
-    desc: "Egg ———————————————————————— $5.99" + 
-    "\n Bacon or Sausage ——————————————————  $7.89" +
-    "\n Ham  ———————————————————————— $7.89" + 
-    "\n Denver  ——————————————————————— $9.09" +
-    "\n Ribeye Steak ———————————————————— $14.99" +
-    "\n Chicken Breast ——————————————————— $11.09",
+    img: "./images/item-5.jpeg",
+    price: "$5.99 $7.89 $7.89 $9.09 $14.99 $11.09",
+    desc: "Egg —————————————————-——— " + 
+    "\n Bacon or Sausage —————-——-—-—————  " +
+    "\n Ham  —————————-——————————— " + 
+    "\n Denver  ——————————————————— " +
+    "\n Ribeye Steak ———————————————— " +
+    "\n Chicken Breast ————————-——————— ",
   },
   {
     id: 6,
     title: "Hot Cakes (Pancake)",
     category: "breakfast",
-    img: "./images/item-1.jpeg",
-    desc: "Bacon (3) or Sausage (3) & 2 Eggs ————————-——— $9.49" + 
-    "\n Short Stack (2) ————————————————————  $5.69" +
-    "\n Full Stack (3) —————————————————————  $7.39" +
-    "\n Side Hot Cake (1) ———————————————————  $3.29",
+    img: "./images/item-6.jpeg",
+    price: "$9.49 $5.69 $7.39 $3.29",
+    desc: "Bacon (3) or Sausage (3) & 2 Eggs ————-——— " + 
+    "\n Short Stack (2) ——————-——————————  " +
+    "\n Full Stack (3) ———————————-——————  " +
+    "\n Side Hot Cake (1) ——————————————— ",
   },
   {
     id: 7,
     title: "French Toast",
     category: "breakfast",
-    img: "./images/item-1.jpeg",
-    desc: "Bacon (3) or Sausage (3) & 2 Eggs —————————— $9.49" + 
-    "\n Wedges (4) ————————————————————  $5.69" +
-    "\n Wedges (6) ————————————————————  $7.39" 
+    img: "./images/item-7.jpeg",
+    price: "$9.49 $5.69 $7.39",
+    desc: "Bacon (3) or Sausage (3) & 2 Eggs -———-——— " + 
+    "\n Wedges (4) —————————————————  " +
+    "\n Wedges (6) —————————————————  " 
   },
   {
     id: 8,
-    title:
-      "Hamburgers (w/ 1000 Island Dressing, Onion, Lettuce, Tomato & Pickle",
+    title: "Hamburgers (w/ 1000 Island Dressing, Onion, Lettuce, Tomato & Pickle",
     category: "lunch",
-    img: "./images/item-1.jpeg",
-    desc: "1/4 LB Hamburger ——————————————————— $4.99" + 
-    "\n 1/4 LB Cheeseburger —————————————————— $5.79" +
-    "\n 1/2 LB Double Hamburger —————————————-——  $7.09" +
-    "\n 1/2 LB Double Cheeseburger —————————————-—  $8.09" +
-    "\n Double Bacon Cheeseburger ———————————-———  $9.29" +
-    "\n Bacon Cheeseburger ——————————————————  $7.49" +
-    "\n Chili Cheeseburger ———————————————————  $7.49" +
-    "\n Avocado Hamburger ——————————————————  $7.49" +
-    "\n Pastrami Hamburger ——————————————————  $8.39" +
-    "\n Mushroom Hamburger —————————————————  $6.99" +
-    "\n Sourdough Hamburger —————————————————  $6.89" +
-    "\n Avocado Bacon Cheeseburger ——————————————  $8.99" 
+    img: "./images/item-8.jpeg",
+    price: "$4.99 $5.79 $7.09 $8.09 $9.29 $7.49 $7.49 $7.49 $8.39 $6.99 $6.89 $8.99",
+    desc: "1/4 LB Hamburger —————————————— " + 
+    "\n 1/4 LB Cheeseburger ————————————— " +
+    "\n 1/2 LB Double Hamburger ————————-——  " +
+    "\n 1/2 LB Double Cheeseburger ————————-—  " +
+    "\n Double Bacon Cheeseburger ——————-———  " +
+    "\n Bacon Cheeseburger —————————————  " +
+    "\n Chili Cheeseburger ——————————————  " +
+    "\n Avocado Hamburger —————————————  " +
+    "\n Pastrami Hamburger —————————————  " +
+    "\n Mushroom Hamburger ————————————  " +
+    "\n Sourdough Hamburger ————————————  " +
+    "\n Avocado Bacon Cheeseburger ————————— " 
   },
   {
     id: 9,
-    title:
-      "Specialty Platters - Choose 2 sides from rice, bean, fries, or salad. & choice of dinner roll or tortilla ",
+    title: "Specialty Platters - Choose 2 sides from rice, bean, fries, or salad. & choice of dinner roll or tortilla ",
     category: "lunch",
     img: "./images/item-9.jpeg",
-    desc:  "\n Ribeye Steak ————————————————————  $14.99" +
-    "\n Chicken Breast ———————————————————  $11.29" +
-    "\n Carne Asada ————————————————————  $11.99" +
-    "\n Cheese Quesadilla ——————————————————  $7.99" +
-    "\n Asada Quesadilla ——————————————————  $11.99" +
-    "\n Chicken Quesadilla —————————————————  $11.29" +
-    "\n Taquitos (3) —————————————————————  $6.99" +
-    "\n Fish & Chips (Fries) ——————————————————  $9.99" +
-    "\n Chicken Strips (4) ——————————————————  $11.99" 
+    price: "$14.99 $11.29 $11.99 $7.99 $11.99 $11.29 $6.99 $9.99 $11.99",
+    desc:  "Ribeye Steak ————————————————  " +
+    "\n Chicken Breast ———————-————————  " +
+    "\n Carne Asada ————————————————  " +
+    "\n Cheese Quesadilla ——————————————  " +
+    "\n Asada Quesadilla —————————————— " +
+    "\n Chicken Quesadilla —————————-————  " +
+    "\n Taquitos (3) —————————————————  " +
+    "\n Fish & Chips (Fries) ———————--——————  " +
+    "\n Chicken Strips (4) ——————————————  " 
   },
   {
     id: 10,
-    title:
-      "Salads (With Iceberg Lettuce, Cheese, Tomato, Cucumber, Egg & Crouton",
+    title: "Salads (With Iceberg Lettuce, Cheese, Tomato, Cucumber, Egg & Crouton",
     category: "lunch",
-    img: "./images/item-9.jpeg",
-    desc:  "\n Green Salad ——————————————————————  $6.59" +
-    "\n Chef or Tuna Salad ———————————————————  $10.49" +
-    "\n Grilled Chicken Breast ———————————————-———  $10.49" 
+    img: "./images/item-10.jpeg",
+    price: "$6.59 $10.49 $10.49",
+    desc:  "Green Salad —————————————————  " +
+    "\n Chef or Tuna Salad ————————————-— " +
+    "\n Grilled Chicken Breast —————————-——— " 
   },
   {
     id: 11,
     title: "Sandwiches",
     category: "lunch",
-    img: "./images/item-9.jpeg",
-    desc: "Famous Pastrami —————————————————— $12.39" + 
-    "\n Ribeye Steak ————————————-——————— $13.39" +
-    "\n Grilled Chicken Breast w/ French Roll ——————————  $9.39" +
-    "\n Grilled Chicken Breast w/ Bun —————————————  $8.99" +
-    "\n Crispy Chicken Breast ————————-————————  $7.79" +
-    "\n Club ————————————————————————  $9.49" +
-    "\n BLT ————————————————————————  $7.79" +
-    "\n Avocado BLT ————————————————-————  $7.99" +
-    "\n Tuna or Fish ———————————————-—————  $7.89" +
-    "\n Ham or Turkey ———————————————-————  $7.89" +
-    "\n Grilled Cheese —————————-————-——————  $5.49" +
-    "\n Grilled Ham & Cheese ————————————————  $7.89" +
-    "\n Patty Melt ——————————————————-———  $7.09" +
-    "\n Tuna Melt ——————————————————-———  $8.29" +
-    "\n Chicken Melt ———————————————-—————  $9.69" +
-    "\n Pastrami Melt —————————-——————————  $12.29" +
-    "\n Turkey Melt ——————————————--——————  $8.29" +
-    "\n Parmesan Grilled Chicken ———————————————  $11.69" +
-    "\n Avocado Turkey BLT ————————————-—————  $9.39" 
+    img: "./images/item-11.jpeg",
+    price: "$12.39 $13.39 $9.39 $8.99 $7.79 $9.49 $7.79 $7.99 $7.89 $7.89 $5.49 $7.89 $7.09 $8.29 $9.69 $12.29 $8.29 $11.69 $9.39",
+    desc: "Famous Pastrami ——————-——————— " + 
+    "\n Ribeye Steak ———————-———————— " +
+    "\n Grilled Chicken Breast w/ French Roll —————  " +
+    "\n Grilled Chicken Breast w/ Bun ————-————  " +
+    "\n Crispy Chicken Breast ————-—————-——  " +
+    "\n Club ————————-———————————  " +
+    "\n BLT ———————————-——————-——  " +
+    "\n Avocado BLT ———————————-———— " +
+    "\n Ham or Turkey ——————————-———— " +
+    "\n Tuna or Fish ———————————-———— " +
+    "\n Grilled Cheese ————-————-——————  " +
+    "\n Grilled Ham & Cheese ———-———————— " +
+    "\n Patty Melt ————————-———-————— " +
+    "\n Turkey Melt ————————————-——— " +
+    "\n Tuna Melt —————————————-——— " +
+    "\n Chicken Melt ——————————-—————  " +
+    "\n Pastrami Melt ———————————————  " +
+    "\n Parmesan Grilled Chicken —————————— " +
+    "\n Avocado Turkey BLT ———————-————— " 
   },
   {
     id: 12,
     title: "Philly Cheesesteak  (Mayo, Grilled Onions, & Swiss Cheese)",
     category: "lunch",
-    img: "./images/item-9.jpeg",
-    desc: "\n Cheese Steak ————————————  $9.79" +
-    "\n Pepper or Mushroom Steak —————————————  $10.29" +
-    "\n Pepper Mushroom Cheese Steak————————————  $10.79" 
+    img: "./images/item-12.jpeg",
+    price: "$9.79 $10.29 $10.79",
+    desc: "Cheese Steak ——————————-————— " +
+    "\n Pepper or Mushroom Steak ————-————— " +
+    "\n Pepper Mushroom Cheese Steak——————-— " 
   },
    { id: 13,
     title: "Hot Dog",
     category: "lunch",
-    img: "./images/item-9.jpeg",
-    desc: "\n Hot Dog ————————————  $4.59" +
-    "\n Chili Cheese Dog —————————————  $5.79" +
-    "\n Bacon Dog ————————————  $5.79"
+    img: "./images/item-13.jpeg",
+    price: "$4.59 $5.79 $5.79",
+    desc: "Hot Dog ——————————————————  " +
+    "\n Chili Cheese Dog ————————-——————  " +
+    "\n Bacon Dog ————————————————— "
   },
   {
     id: 14,
     title: "South of the Border",
     category: "lunch",
-    img: "./images/item-9.jpeg",
-    desc:  "\n Carne Asada Burrito ———————————————— $9.39" +
-    "\n Chicken or Fish Burrito ————————————————  $8.69" +
-    "\n California Burrito (Bean, Fries, Avocado) ————————————  $10.29" +
-    "\n Bean & Cheese Burrito ——————————  $5.79" +
-    "\n BRC Burrito —————————————  $5.79" +
-    "\n Carne Asada Taco ————————————  $3.49" +
-    "\n Chicken or Fish Taco ————————————  $3.19" +
-    "\n Taquitos (3) ————————————  $3.69" +
-    "\n Cheese Quesadilla —————————————  $5.89" +
-    "\n Asada Quesadilla ————————————  $9.99" +
-    "\n Chicken Quesadilla —————————  $9.29" +
-    "\n Nacho Cheese French Fries (Small) ——————————  $4.49" +
-    "\n Nacho Cheese French Fries (Large) —————————————  $6.49" +
-    "\n Asada Super Nachos ————————————  $12.49" +
-    "\n Chicken Super Nachos ————————————  $11.79" +
-    "\n Asada Torta ————————————  $11.49" +
-    "\n Chicken Torta ————————————  $10.79" +
-    "\n Grilled Chicken Wrap —————————————  $9.69"
+    img: "./images/item-14.jpeg",
+    price: "$9.39 $8.69 $10.29 $5.79 $5.79 $3.49 $3.19 $3.69 $5.89 $9.99 $9.29 $4.49 $6.49 $12.49 $11.79 $11.49 $10.79 $9.69",
+    desc:  "Carne Asada Burrito ———————————-— " +
+    "\n Chicken or Fish Burrito ———————-————  " +
+    "\n California Burrito (Bean, Fries, Avocado) --———  " +
+    "\n Bean & Cheese  ————-——————————  " +
+    "\n BRC Burrito ————-————————————  " +
+    "\n Carne Asada Taco —————————-——-—— " +
+    "\n Chicken or Fish Taco —————————-——— " +
+    "\n Taquitos (3) ——————————-——————  " +
+    "\n Cheese Quesadilla —————-———————— " +
+    "\n Asada Quesadilla ——————————————  " +
+    "\n Chicken Quesadilla —————-————————  " +
+    "\n Nacho Cheese French Fries (Small) ———-——— " +
+    "\n Nacho Cheese French Fries (Large) ———-———  " +
+    "\n Asada Super Nachos ————————————  " +
+    "\n Chicken Super Nachos ——————-————— " +
+    "\n Asada Torta ———————————————— " +
+    "\n Chicken Torta ——————-————————— " +
+    "\n Grilled Chicken Wrap ———————-————— "
   },
   {
     id: 15,
     title: "Taco Combo Special (2 Tacos, Rice, Beans & Drink)",
     category: "lunch",
-    img: "./images/item-9.jpeg",
-    desc:  "\n Carne Asada ————————————  $11.49" +
-    "\n Chicken or Fish —————————————  $10.79"
+    img: "./images/item-15.jpeg",
+    price: "$11.49 $10.79",
+    desc:  "Carne Asada ————————-———————  " +
+    "\n Chicken or Fish ————————-——————  "
   },
   {
     id: 16,
-    title:
-      "Teriyaki with Steamed White Rice & Cabbage. Comes with a choice of salad or fries",
+    title: "Teriyaki with Steamed White Rice & Cabbage. Comes with a choice of salad or fries",
     category: "lunch",
-    img: "./images/item-9.jpeg",
-    desc:  "\n Chicken ————————————  $10.49" +
-    "\n Beef —————————————  $11.79" +
-    "\n Chicken & Beef ————————————  $11.79" +
-    "\n Bulgogi —————————————  $12.69" +
-    "\n Vegetarian —————————————  $9.99"
+    img: "./images/item-16.jpeg",
+    price: "$10.49 $11.79 $11.79 $12.69 $9.99",
+    desc:  "Chicken ————————-—————-———— " +
+    "\n Beef ———————————-————————  " +
+    "\n Chicken & Beef ———-——————-—————  " +
+    "\n Bulgogi ——————————————————" +
+    "\n Vegetarian ————-———-————-————— "
   },
   {
     id: 17,
     title: "Breakfast Side Orders",
     category: "Sides",
-    img: "./images/item-9.jpeg",
-    desc: "\n Hashbrown ————————————  $3.29" +
-    "\n Toast (2) —————————————  $1.79" +
-    "\n Egg (1) ————————————  $1.39" +
-    "\n Bacon (2) or Sausage (2)—————————————  $2.19" +
-    "\n Ham —————————————  $2.39"
+    img: "./images/item-17.jpeg",
+    price: "$3.29 $1.79 $1.39 $2.19 $2.39",
+    desc: "Hashbrown ———————-————-————  " +
+    "\n Toast (2) ————————————————— " +
+    "\n Egg (1) ————————-———-——————  " +
+    "\n Bacon (2) or Sausage (2)——————-————  " +
+    "\n Ham ————————-—————-————— "
   },
   {
   id: 18,
   title: "Lunch Side Orders",
   category: "Sides",
-  img: "./images/item-9.jpeg",
-  desc: "\n French Fries ————————————  $3.29" +
-  "\n Large French Fries —————————————  $5.29" +
-  "\n Chili Cheese Fries (Small) ————————————  $4.59" +
-  "\n Chili Cheese Fries (Large) —————————————  $6.99" +
-  "\n Bowl of Chili —————————————  $4.79" +
-  "\n Mushrooms or Bell Peppers ————————————  $1.10" +
-  "\n Rice —————————————  $1.90" +
-  "\n Pinto Beans ————————————  $1.90" +
-  "\n Chicken Strips (3) —————————————  $5.69" +
-  "\n Mozzarella Cheese Sticks (6) —————————————  $4.39" +
-  "\n Ranch, Italian or 1000 Island Dressing (2 oz) —————————————  $0.40" +
-  "\n American or Swiss Cheese ————————————  $0.80" +
-  "\n Guacamole —————————————  $0.70" +
-  "\n Sour Cream —————————————  $0.70" +
-  "\n Avocado —————————————  $1.70"
+  img: "./images/item-18.jpeg",
+  price: "$3.29 $5.29 $4.59 $6.99 $4.79 $1.10 $1.90 $1.90 $5.69 $4.39 $0.40 $0.80 $0.70 $0.70 $1.70",
+  desc: "French Fries ——————-—————————— " +
+  "\n Large French Fries ——-—————-——————  " +
+  "\n Chili Cheese Fries (Small) ——-——————-——  " +
+  "\n Chili Cheese Fries (Large) ———-—————-—— " +
+  "\n Bowl of Chili —————————————-——— " +
+  "\n Mushrooms or Bell Peppers ——————-———  " +
+  "\n Rice ———-————-———————-—————  " +
+  "\n Pinto Beans ————-——-——————————  " +
+  "\n Chicken Strips (3) ————————-—————— " +
+  "\n Mozzarella Cheese Sticks (6) —————-————  " +
+  "\n Ranch, Italian or 1000 Island Dressing (2 oz) ——-  " +
+  "\n American or Swiss Cheese ————--—-———— " +
+  "\n Guacamole or Sour Cream ————-——————  " +
+  "\n Sour Cream ————-————————————  " +
+  "\n Avocado —————-—————-———————  "
 },
-  {
-    id: 19,
-    title: "Drinks",
-    category: "drinks",
-    img: "./images/item-9.jpeg",
-    desc: "\n Large Fountain Drink ————————————  $2.49" +
-    "\n X-Large Fountain Drink —————————————  $3.39" +
-    "\n Coffee (Small) ————————————  $1.65" +
-    "\n Coffee (Large) —————————————  $1.99" +
-    "\n Water (Bottle) —————————————  $1.50" +
-    "\n Green Tea (Hot) ————————————  $1.75" +
-    "\n Milk —————————————  $2.49" +
-    "\n Orange Juice ————————————  $2.49" +
-    "\n Canned Soda —————————————  $1.69" +
-    "\n Monster Energy Drink —————————————  $3.50" +
-    "\n Gatorade —————————————  $2.49" +
-    "\n Arizona Tea ————————————  $2.49"
-  },
+
 ];
   export default menu;
+  

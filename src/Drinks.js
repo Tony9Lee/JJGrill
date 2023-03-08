@@ -1,27 +1,27 @@
 import React from "react";
 
-const Menu = ({ items }) => {
+const Drinks = ({ drinks }) => {
   return (
     <div className="section-center">
-      {items.map((item) => {
-        const { id, title, img, desc, price } = item;
+      {drinks.map((drink) => {
+        const { id, title, img, desc, price } = drink;
         return (
           <article key={id} className="menu-item">
             <img src={img} alt={title} className="photo" />
-            <div className="item-info">
+            <div className="drinks-info">
               <header>
                 <h5>{title}</h5>
               </header>
               <div className="item-text-price-container">
                 <div className="item-text">
-                  {desc.split("\n").map((item, index) => (
+                  {desc.split("\n").map((drink, index) => (
                     <React.Fragment key={index}>
-                      {item}
+                      {drink}
                       <br />
                     </React.Fragment>
                   ))}
                 </div>
-                <div className="item-price">
+                <div className="drinks-price">
                   <h5>{price}</h5>
                 </div>
               </div>
@@ -33,4 +33,4 @@ const Menu = ({ items }) => {
   );
 };
 
-export default Menu;
+export default Drinks;
